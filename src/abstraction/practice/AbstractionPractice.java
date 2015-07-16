@@ -21,7 +21,7 @@ public class AbstractionPractice {
                                 }.dibujar();
         
         for (Iterator<Circulo> it = dibujar.iterator(); it.hasNext();) {
-            System.out.println(it.next().diametro);
+            System.out.println("diametro ".concat(it.next().diametro.toString()));
             
         }
     }
